@@ -1,0 +1,124 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* Header */
+header {
+    background-color: #0066cc;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 0.5em;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Sections */
+section {
+    padding: 2em;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 2em;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#about, #services, #contact, #blogs {
+    margin-top: 2em;
+}
+
+h2 {
+    color: #0066cc;
+    border-bottom: 3px solid #ddd;
+    padding-bottom: 0.5em;
+}
+
+.service, .blog {
+    background-color: #e6f7ff;
+    padding: 1em;
+    margin: 1em 0;
+    border-left: 5px solid #0066cc;
+    border-radius: 5px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 1em;
+    color: #0066cc;
+}
+
+form input, form textarea {
+    padding: 0.5em;
+    margin-top: 0.5em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 0.7em;
+    background-color: #0066cc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1em;
+}
+
+form button:hover {
+    background-color: #005bb5;
+}
+
+/* Hidden message */
+.hidden {
+    display: none;
+}
+
+#responseMessage {
+    color: #0066cc;
+    font-weight: bold;
+    margin-top: 1em;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 2em;
+}
